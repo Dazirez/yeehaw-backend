@@ -164,7 +164,7 @@ def deathmatch():
     return flask.jsonify(
         won=won,
         player2Time = player2Time,
-        money=player.money,
+        playerMoney=player.money,
         player2Money=enemy.money
     )
 
